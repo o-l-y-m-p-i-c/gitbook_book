@@ -141,4 +141,13 @@ window.onload = () => {
         e.currentTarget.classList.toggle('active')
     }
     
+    let descr = document.getElementById('description').textContent
+
+    if (descr) {
+        document
+            .getElementsByTagName('meta')
+            .namedItem('description')
+            .setAttribute('content',descr)
+    }
+    
 }

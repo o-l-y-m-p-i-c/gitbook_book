@@ -519,3 +519,14 @@ header{
 /* .markdown-section li p {
     display: inline
 } */
+
+#description{
+    margin: 0 !important;
+    font-weight: normal;
+    font-size: unset !important;
+    opacity: 0.4;
+}
+#title{
+    margin: 0px  !important;
+
+}
