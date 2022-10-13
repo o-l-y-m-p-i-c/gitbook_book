@@ -148,6 +148,14 @@ window.onload = () => {
             .getElementsByTagName('meta')
             .namedItem('description')
             .setAttribute('content',descr)
+        document
+            .getElementsByTagName('meta')
+            .namedItem('og:description')
+            .setAttribute('content',descr)
+        document
+            .getElementsByTagName('meta')
+            .namedItem('twitter:description')
+            .setAttribute('content',descr)
     }
     
 }
