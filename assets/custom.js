@@ -148,10 +148,9 @@ window.onload = () => {
             .getElementsByTagName('meta')
             .namedItem('description')
             .setAttribute('content',descr)
-        document
-            .getElementsByTagName('meta')
-            .namedItem('og:description')
-            .setAttribute('content',descr)
+        document.querySelector('meta[property="og:description"]').setAttribute("content", descr);
+        //     .namedItem('og:description')
+        //     .setAttribute('content',descr)
         document
             .getElementsByTagName('meta')
             .namedItem('twitter:description')
