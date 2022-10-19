@@ -1,9 +1,4 @@
-## DEX Adding and Removing Liquidity {#title}
-### deslslslsl {#description}
-
----
-
-
+## DEX Adding and Removing Liquidity
 
 1. Go to Pool submenu on [https://dex.moonrabbit.com/#/pool](https://dex.moonrabbit.com/#/pool/) 
 

@@ -140,21 +140,6 @@ window.onload = () => {
     document.querySelector('.menu_open_btn').onclick = (e) => {
         e.currentTarget.classList.toggle('active')
     }
-    
-    let descr = document.getElementById('description').textContent
 
-    if (descr) {
-        document
-            .getElementsByTagName('meta')
-            .namedItem('description')
-            .setAttribute('content',descr)
-        document.querySelector('meta[property="og:description"]').setAttribute("content", descr);
-        //     .namedItem('og:description')
-        //     .setAttribute('content',descr)
-        document
-            .getElementsByTagName('meta')
-            .namedItem('twitter:description')
-            .setAttribute('content',descr)
-    }
     
 }
